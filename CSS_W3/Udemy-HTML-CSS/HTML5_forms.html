@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form elements</title>
+</head>
+
+<body>
+    <form action="form-submit.php" method="get">
+        <fieldset>
+            <legend>Personal Information </legend>
+            First Name :
+            <input type="text" name="first name" autofocus required />
+            <br>
+            Email :
+            <input type="email" name="email" placeholder="Enter a valid email" autofocus required />
+        </fieldset>
+        <br>
+        Checkbox :
+        <input type="checkbox" name="check" value="ch1" />Check 1
+        <input type="checkbox" name="check" value="ch2" />Check 2
+        <br>
+        Radio :
+        <input type="radio" name="radio" value="r1" />radio 1
+        <input type="radio" name="radio" value="r2" />radio 2
+        <br>
+        Message :
+        <textarea name="message"></textarea>
+        <br>
+        Dropdown :
+        <select name="dropdown">
+            <option value="o1">Option 1</option>
+            <option value="o2">Option 2</option>
+            <option value="o3">Option 3</option>
+            <option value="o4">Option 4</option>
+            <option value="o5">Option 5</option>
+        </select>
+        <br>
+        Password :
+        <input type="password" name="password" autofocus required />
+        <br>
+        Nubmer :
+        <input type="number" name="number" />
+        <br>
+        Range :
+        <input type="range" name="range" min="1" max="10" value="1" />10
+        <br>
+        Date :
+        <input type="date" name="date" />
+        <br>
+        Time :
+        <input type="time" name="time" />
+        <br>
+        Color :
+        <input type="color" name="color" />
+        <br>
+        <input type="submit" value="Send" />
+    </form>
+</body>
+
+</html>
